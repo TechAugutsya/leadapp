@@ -48,6 +48,7 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended:1.6.8")
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.2")
+    implementation("androidx.tracing:tracing:1.1.0")
     // For preview only
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.8")
     debugImplementation("androidx.compose.ui:ui-test-manifest:1.6.8")
