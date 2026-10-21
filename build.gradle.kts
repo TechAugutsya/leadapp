@@ -1,0 +1,8 @@
+// Top-level build script
+plugins {
+    id("com.android.application") version "8.5.1" apply false
+    kotlin("android") version "2.0.0" apply false
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.0" apply false
+}
+
+// Repositories are defined in settings.gradle.kts via dependencyResolutionManagement
